@@ -1,7 +1,8 @@
 accessing
 shortcuts 
 	self flag: #TODO. "These mappings have to be redone with the new KM ways of Pharo5"
-	^ {	
+	^{}.
+	"^ {	
 		#minimizeAllWindows 		-> 	'Minimize all windows'					-> [$r command, $m command].
 		#maximizeAllWindows 		-> 	'Maximize all windows'					-> [$r command, $m shift  command].
 		#tileVisibleWindows 		-> 	'Tile visible windows'					-> [$r command, $t command].
@@ -30,4 +31,4 @@ shortcuts
 		#cycleClockwise 				-> 'Last visible window on stack come to top'	-> [$r command, $>].
 		#cycleCounterClockwise 		-> 'First visible window on stack go to bottom'	-> [$r command, $<].
 		#switchToNextWorld 			-> 'Switch to next world'				-> [$r command, $r command]
-	}
+	}"
