@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "KMCategory",
+	"category" : "TWM-KeyMapping",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TWMShortcuts",
+	"type" : "normal"
+}
